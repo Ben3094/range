@@ -3,8 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Version>1.2.3</Version>
+    <PackageLicenseExpression>https://github.com/Ben3094/range/blob/master/LICENSE</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Ben3094/range</PackageProjectUrl>
+    <Authors>Benjamin SAGGIN</Authors>
+    <Copyright>2019 Benjamin SAGGIN</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
